@@ -1,0 +1,28 @@
+body  {
+  font-family: 'Merriweather', serif;
+}
+
+h1  {
+  color: rgb(220, 220, 220);
+  font-size: 40px;
+  background: rgba(45, 43, 45, 60);
+  text-align: center;
+  line-height: 200px;
+  font-family: 'Oswald', sans-serif;
+}
+
+img  {
+  border-radius: 50%;
+  width: 200px;
+}
+
+blockquote  {
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    color: rgb(220, 220, 220);
+    border-width: 4px 0;
+}
+
+p {
+  line-height: 1.6;
+}
