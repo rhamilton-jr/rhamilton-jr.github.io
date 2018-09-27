@@ -1,0 +1,23 @@
+h1  {
+  background: green;
+  height: 60px;
+  color: white;
+  size: 28px;
+  text-align: center;
+  padding: 12px;
+}
+
+.navbar {
+  background: blue;
+  width:800px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.maui, .reykjavic, .aspen {
+  font-family: sans-serif;
+  padding-right: 50px;
+  margin: auto;
+  display: inline-block;
+}
