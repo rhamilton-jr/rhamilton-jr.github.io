@@ -1,25 +1,31 @@
 body  {
   background: #f3f3f3;
   margin: 12px 15px 12px 15px;
-}
-
-.header  {
-  background: #09ca9f;
-  padding:24px 0 24px 0;
-  border: 0;
-  margin: auto;
+  font-family: sans-serif;
 }
 
 h1  {
-  font-family: sans-serif;
-  color:white;
-  border: none;
-  margin: auto;
+  color: #ffffff;
   text-align: center;
+  background: #09ca9f;
+  padding: 24px 0 24px 0;
+  border: 0;
+  margin: 0 auto;
+  margin-bottom: 24px;
 }
 
-.dest_header  {
-  font-family: sans-serif;
+
+.destinations.altcolor {
+  background-color: #c2f2e3;
+}
+
+.destinations {
+  margin: 24px 0 48px 0;
+  padding: 0 20px 40px 20px;
+  background-color: #c4defc;
+}
+
+.destinations h2 {
   font-size: 30px;
   color: black;
   border: none;
@@ -28,12 +34,29 @@ h1  {
   text-align: center;
 }
 
+.destinations p {
+  height: auto;
+  position: relative;
+  bottom: 0;
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 auto;
+  padding: 15px 20px 0 20px;
+}
+
+.destinations img {
+  margin: 0 auto;
+  display: block;
+}
+
+.last {
+  margin-bottom: 24px;
+}
+
 .navbar {
-  width:800px;
-  height: 40px;
-  margin: auto;
+  margin: 0 auto;
   border: none;
-  padding: 40px 0 20px 0;
   text-align: center;
 }
 
@@ -46,8 +69,7 @@ h1  {
 }
 
 .maui, .reykjavik, .aspen {
-  font-family: sans-serif;
-  color:black;
+  color: black;
   margin: auto;
   border: none;
   display: inline-block;
@@ -55,52 +77,18 @@ h1  {
   font-size: 18px;
 }
 
-.maui_div, .aspen_div {
-  background: #c4defc;
-  padding: 0 20px 40px 20px;
-  overflow: hidden;
-}
-
-.reykjavik_div  {
-    background: #c2f2e3;
-    padding: 0 20px 40px 20px;
-    margin-top: 48px;
-    overflow: hidden;
-}
-
-.aspen_div  {
-  margin-top:48px;
-}
-
-.maui_img, .reykjavik_img, .aspen_img  {
-  display: inline-block;
-  margin: 0 auto;
-}
-
 .maui_header, .reykjavik_header, .aspen_header  {
   text-align: center;
-  background: rgb(100,200,100);
+  background: #000000;
   padding: 0;
   font-size: 28px
   margin-bottom: 0px;
 }
 
-.maui_type, .reykjavik_type, .aspen_type  {
-  height: auto;
-  position: relative;
-  bottom: 0;
-}
 
-p  {
-  font-family: sans-serif;
-  text-align: left;
-  font-size:16px;
-  line-height: 20px;
+.footer  {
+  font-weight: bold;
   margin: 0 auto;
-  padding: 15px 20px 0 20px;
-  position: absolute;
-}
-
-.footer_callout  {
-  font-family: 
+  text-align: center;
+  margin-bottom: 24px
 }
