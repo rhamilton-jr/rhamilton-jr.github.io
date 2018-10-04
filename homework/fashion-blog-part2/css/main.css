@@ -1,0 +1,89 @@
+body  {
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: "Lato";
+  display: inline-block;
+  margin: 0;
+}
+
+h1 {
+  color: #d40019;
+  font-size: 54px;
+  font-weight: 300;
+}
+
+h1:hover  {
+  color: #a00;
+}
+
+h2 {
+  color: #888;
+  font-size: 27px;
+  font-weight: 300;
+}
+
+p {
+  color: #444;
+  font-family: "Lato";
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+a {
+  color: #dd0000;
+}
+
+a:hover{
+  color: #a00;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  background: #000;
+}
+
+nav a {
+  font-family: "Lato";
+  background: #000;
+  color: #fff;
+  font-size: 24px;
+  padding: 20px 36px 20px 36px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.post::first-letter {
+  font-size: 108px;
+  line-height: 1;
+  margin: 0;
+}
+
+.container {
+  width: 1080px;
+  padding: 54px;
+}
+
+.date {
+  font-family: "Lato";
+  color: #cccccc;
+  font-size: 36px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.title  {
+  font-family: "Lato";
+  color: #000;
+  font-size: 36px;
+  font-weight: 300;
+  padding-bottom:10px;
+}
+
+.title:hover  {
+  color: #d00;
+}

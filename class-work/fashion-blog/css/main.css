@@ -17,22 +17,29 @@ h1  {
   margin-bottom: 0px;
 }
 
-h2  {
+h2 {
   color: #000;
   font-weight: 300;
   margin: 10px 0;
 }
 
-img   {
+img {
   width: 100%;
 }
 
 footer {
-  
+  padding: 20px 0;
 }
 
-.nav  {
-  padding-bottom: 40px;
+footer a {
+  color: #dd0000;
+  text-decoration: none;
+  padding-right: 20px;
+  font-family: "lato";
+}
+
+.nav {
+  padding-bottom: 20px;
 }
 
 .nav a {
@@ -45,7 +52,7 @@ footer {
   color:#000;
 }
 
-.nav a:last-child  {
+.nav a:last-child {
   padding-right: 0px;
 }
 
@@ -53,9 +60,10 @@ footer {
   color: #cccccc;
   font-family: "Lato";
   font-size: 28px;
+  padding-top: 10px;
 }
 
-.title  {
+.title {
   color: #000;
   font-family: "Lato";
   font-size: 28px;
@@ -72,12 +80,15 @@ footer {
   line-height: 1.5
 } 
 
-.continues  {
+.continues {
   font-family: "lato";
   font-weight: 700;
   padding: 20px 0;
-  color: #d40019;
   text-align: right;
   border-bottom: 1px solid #dddddd;
 }
 
+.continues a {
+  color: #d40019;
+  text-decoration: none;
+}
