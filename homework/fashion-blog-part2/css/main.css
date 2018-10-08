@@ -35,6 +35,12 @@ p {
   line-height: 1.5;
 }
 
+p:first-letter {
+  float: left;
+  font-size: 108px;
+  line-height: 1;
+}
+
 a {
   color: #dd0000;
 }
