@@ -153,6 +153,16 @@ nav a:hover {
   width: 100%;
 }
 
+.cta-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.hero-button a {
+  text-decoration: none;
+  color: black;
+}
+
 .cta {
   overflow: auto;
   width: 100%;
@@ -165,10 +175,19 @@ nav a:hover {
   width: calc(100% / 3);
 }
 
+footer {
+  background: black;
+  color: white;
+  padding: 30px;
+}
+
 footer p {
   background-color: black;
   font-color: white;
+}
 
+footer i {
+  color: red;
 }
 
 @media screen and (max-width: 1005px) {
@@ -185,6 +204,8 @@ footer p {
   .cta-card p {
     text-align: center;
   }
+
+
 
   .cta-card h3 {
     text-align: center;
