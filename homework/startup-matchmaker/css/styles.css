@@ -212,6 +212,19 @@ footer i {
   }
 }
 
+@media screen and (max-width: 882px;) {
+
+    header {
+    text-align: center;
+    display: inline-block;
+  }
+
+  header h1 {
+    text-align: center;
+    margin: none;
+    padding: 22px;
+}
+
 @media screen and (max-width: 680px) {
 
    .meetyourmatch {
@@ -227,4 +240,5 @@ footer i {
   .meetyourmatch h2 {
     text-align: center;
   }
+
 }
