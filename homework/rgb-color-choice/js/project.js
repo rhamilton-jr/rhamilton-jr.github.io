@@ -23,8 +23,10 @@ function rgbValues() {
   //document.body.style.backgroundColor = "red";
  //document..style.backgroundColor = "red"
   document.querySelector("#wrapper").style.background = rgbColor;
-  document.querySelector("#colorful-text").innterHTML = rgbColor;
+  document.querySelector("#colorful-text").innerHTML = rgbColor;
   console.log(rgbColor)
 }
 
   document.querySelector("button").onclick = rgbValues
+
+  //document.querySelector('#my-div').innerHTML = 'Hello, World!';
