@@ -45,7 +45,7 @@ img {
 }
 
 article {
-  width: 720px;
+  width: 100%;
 }
 
 article h2 {
@@ -103,12 +103,13 @@ aside p {
 
 .masterflex {
   display: flex;
-  padding: 0 300px;
+  margin: 0 300px;
   justify-content: center;
 }
 
 .articleflex {
-  width: 720px;
+  width: 60%;
+  justify-content: column;
 }
 
 .learn-more a {
@@ -119,8 +120,49 @@ aside p {
 }
 
 @media screen and (max-width: 1179px) {
+  
   header {
     display: block;
     text-align: center;
   }
+
+  h1 {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav {
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+
+  header a:last-child {
+    padding-right: 0;
+  }
+
+  .masterflex {
+    justify-content: column;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  
+  header {
+    text-align: left;
+    width: 100%;
+  }
+  
+  nav {
+    display: none;
+  }
+
+  h1 {
+    padding-left: 10px;
+  }
+
+  aside {
+    width: 100%;
+  }
+
 }
