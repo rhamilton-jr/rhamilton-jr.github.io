@@ -19,9 +19,6 @@ function rgbValues() {
   var green = document.querySelector("#green").value
   var blue = document.querySelector("#blue").value
   var rgbColor = "rgb("+ red + " , " + green + ", " + blue + ")"
-  //console.log(rgbColor)
-  //document.body.style.backgroundColor = "red";
- //document..style.backgroundColor = "red"
   document.querySelector("#wrapper").style.background = rgbColor;
   document.querySelector("#colorful-text").innerHTML = rgbColor;
   console.log(rgbColor)
