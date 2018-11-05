@@ -1,0 +1,103 @@
+
+body {
+  margin: 0px;
+}
+header {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+header #rlogo {
+  width: 28px;
+  padding: 0 86px 0 22px;
+}
+
+header #logotype {
+  flex: 0 1 auto;
+  width: 120px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+font-family: "Roboto", sans-serif;
+padding: 10px 40px 10px 0;
+display: inline-block;
+text-decoration: none;
+justify-content: row;
+font-size: 12px;
+color: #2d2b2d;
+font-weight: Bold;
+letter-spacing: 2px;
+align-items: center;
+clear: both;
+}
+
+nav a:last-child {
+padding-right: 0;
+}
+
+.topheader {
+  background: #2d2b2d;
+  height: 40px;
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+
+.herocopy h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: Bold;
+  letter-spacing: 6px;
+  padding: 0 30px;
+}
+
+.herocopy p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: Regular;
+  letter-spacing: 2px;
+  padding: 0 24px;
+}
+
+.herocarousel {
+  width: 100%;
+  height: 660px;
+}
+
+.herocarousel img {
+  height: 100%
+  flex: 0 1 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: contain;
+}
+
+.herocopy button {
+  background-color: #2d2b2d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: 12px;
+}
