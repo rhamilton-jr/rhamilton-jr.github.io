@@ -35,9 +35,10 @@ $('#item').val("")
 
 function appendItem(item) {
   $("#list").append("<li>" + item + "</li>")
+  $("#item").focus()
 }
 
-$("li").click(removeItem)
+$(document).on('click', 'li', removeItem)
 
 function removeItem(item) {
   $(this).remove()
