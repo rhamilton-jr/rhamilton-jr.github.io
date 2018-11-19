@@ -44,16 +44,22 @@ nav a:last-child {
 padding-right: 0;
 }
 
+#firstHeroSlider {
+  width: 100%;
+  display: flex;
+}
+
 .topheader {
   background: #2d2b2d;
   height: 40px;
-  display: flex;
+  display: flex ;
   justify-content: row;
   align-items: center;
+  width: 100%;
 }
 
 .herocopy {
-  height:60px;
+  height:190px;
 }
 
 .herocopy h1 {
@@ -68,7 +74,7 @@ padding-right: 0;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  font-weight: Regular;
+  font-weight: medium;
   letter-spacing: 2px;
   padding: 0 24px;
 }
@@ -76,36 +82,110 @@ padding-right: 0;
 .herocarousel {
   width: 100%;
   height: 660px;
+  display: flex;
 }
 
 .herocarousel img {
-  width: 100%
+  max-width: 100%;
   flex: 0 1 auto;
-  position: absolute;
+  position: relative;
   left: 50%;
   transform: translateX(-50%);
   object-fit: cover;
+  overflow: auto;
 }
 
 .herocopy button a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: 12px;
+  text-decoration: none;
+}
+
+.herocopy button {
   background-color: #2d2b2d;
   border: none;
-  color: white;
   padding: 15px 32px;
   text-align: center;
-  text-decoration: none;
   font-size: 16px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 32px;
-  font-family: "Roboto", sans-serif;
-  font-weight: Regular;
-  font-size: 14px;
-  letter-spacing: 2px;
   margin-top: 12px;
 }
 
+.secondhero {
+  height: 600px;
+  width: calc(100%);
+  background-color: #2d2b2d;
+  display: flex;
+}
+
+.secondhero h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: Bold;
+  letter-spacing: 6px;
+  color: white;
+  padding: 240px 30px 0 30px;
+  text-transform: uppercase;
+}
+
+.secondhero p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: medium;
+  letter-spacing: 2px;
+  padding: 0 24px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+.secondhero div {
+  background-color: #2d2b2d;
+}
+
+.datadrivenresults {
+  min-width: calc(100%/3);
+  clear: both;
+  position: relative;
+}
+
+.meshedtogether {
+  min-width: calc(100%/3);
+  clear: both;
+  position: relative;
+}
+
+.datadrivenresultsicon {
+  flex: 0 1 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  overflow: auto;
+  width: 180px;
+  padding: 40px;
+  text-align: center;
+}
+
+.meshedtogethericon {
+  flex: 0 1 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  overflow: auto;
+  width: 180px;
+  padding: 40px;
+  text-align: center;
+}
 
 @media screen and (max-width: 750px) {
   nav {
@@ -113,5 +193,14 @@ padding-right: 0;
   }
   .topheader {
     height: 60px;
+  }
+  .herocopy {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .herocopy {
+    padding-bottom: 58px;
   }
 }
