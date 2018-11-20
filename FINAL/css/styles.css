@@ -1,6 +1,7 @@
 
 body {
   margin: 0px;
+  display: inline-block;
 }
 header {
   display: flex;
@@ -11,6 +12,11 @@ header {
 header #rlogo {
   width: 28px;
   padding: 0 86px 0 22px;
+}
+
+button {
+  width: 260px;
+  margin-bottom: 20px;
 }
 
 header #logotype {
@@ -163,6 +169,12 @@ padding-right: 0;
   position: relative;
 }
 
+.thejobdoneright {
+  min-width: calc(100%/3);
+  clear: both;
+  position: relative;
+}
+
 .datadrivenresultsicon {
   flex: 0 1 auto;
   position: absolute;
@@ -187,6 +199,46 @@ padding-right: 0;
   text-align: center;
 }
 
+.thejobdonerighticon {
+  flex: 0 1 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  overflow: auto;
+  width: 180px;
+  padding: 40px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 828px) {
+  
+  .secondhero {
+    display: inline-block;
+    overflow: visible;
+  }
+
+  .datadrivenresults {
+  min-width: calc(100%/3);
+  clear: both;
+  position: relative;
+}
+
+.meshedtogether {
+  min-width: calc(100%/3);
+  clear: both;
+  position: relative;
+}
+
+.thejobdoneright {
+  min-width: calc(100%/3);
+  clear: both;
+  position: relative;
+}
+
+}
+
 @media screen and (max-width: 750px) {
   nav {
     display: none;
@@ -197,10 +249,18 @@ padding-right: 0;
   .herocopy {
     padding-bottom: 20px;
   }
+
+
 }
 
 @media screen and (max-width: 568px) {
   .herocopy {
     padding-bottom: 58px;
+  }
+}
+
+@media screen and (max-width: 403px) {
+  .herocopy {
+    padding-bottom: 80px;
   }
 }
