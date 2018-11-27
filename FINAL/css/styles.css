@@ -2,6 +2,8 @@
 body {
   margin: 0px;
   display: inline-block;
+  overflow-x: auto;
+  width: 100%;
 }
 header {
   display: flex;
@@ -12,6 +14,22 @@ header {
 header #rlogo {
   width: 28px;
   padding: 0 86px 0 22px;
+}
+
+header #hamburgermenu img{
+  width: 20px;
+  display: block;
+  align-content: center;
+  justify-content: flex-end;
+
+}
+
+header #hamburgermenu {
+  flex: 0 1 auto;
+  width: 20px;
+  position: absolute;
+  left: 90%;
+  transform: translateX(-25%);
 }
 
 button {
@@ -25,7 +43,6 @@ header #logotype {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  
 }
 
 nav {
@@ -129,6 +146,8 @@ padding-right: 0;
   width: calc(100%);
   background-color: #2d2b2d;
   display: flex;
+  align-items: center;
+  overflow: auto;
 }
 
 .secondhero h2 {
@@ -141,6 +160,10 @@ padding-right: 0;
   text-transform: uppercase;
 }
 
+.secondhero h2:last-child {
+  padding-top: 0;
+}
+
 .secondhero p {
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -151,6 +174,7 @@ padding-right: 0;
   color: white;
   text-transform: uppercase;
   line-height: 2;
+  margin-bottom: 0;
 }
 
 .secondhero div {
@@ -211,12 +235,23 @@ padding-right: 0;
   text-align: center;
 }
 
+.latestwork h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: Bold;
+  letter-spacing: 4px;
+  padding: 60px 30px;
+  margin: 0;
+  text-transform: uppercase;
+}
 
-@media screen and (max-width: 828px) {
-  
-  .secondhero {
-    display: inline-block;
-    overflow: visible;
+.latestwork hr {
+  padding: 0 30px;
+}
+
+
+ .secondhero p {
+    padding-bottom: 20px;
   }
 
   .datadrivenresults {
@@ -237,7 +272,41 @@ padding-right: 0;
   position: relative;
 }
 
+.rhheadshot {
 }
+
+.rhheadshot img {
+  max-width: 320px;
+  /*max-width: 25%;*/
+  flex: 0 1 auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  overflow: auto;
+  margin-top: 40px;
+  border: 3px solid black;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 751px) {
+  
+  #hamburgermenu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 828px) {
+  
+  .secondhero {
+    display: inline-block;
+    overflow: auto;
+    height: 1200px;
+  }
+
+  .herocarousel {
+    height:400px;
+  }
 
 @media screen and (max-width: 750px) {
   nav {
@@ -249,13 +318,21 @@ padding-right: 0;
   .herocopy {
     padding-bottom: 20px;
   }
-
-
 }
 
 @media screen and (max-width: 568px) {
   .herocopy {
     padding-bottom: 58px;
+  }
+
+  .latestwork h1 {
+    padding: 40px 0 30px 0;
+}
+
+@media screen and (max-width: 428px) {
+  
+  .latestwork h1{
+    padding: 60px 0 30px 0;
   }
 }
 
