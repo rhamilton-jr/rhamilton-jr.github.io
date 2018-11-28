@@ -209,6 +209,48 @@ footer #rlogodark {
   background-color: #2d2b2d;
 }
 
+.secondheroskills {
+  height: 600px;
+  width: calc(100%);
+  background-color: #2d2b2d;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.secondheroskills h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: Bold;
+  letter-spacing: 6px;
+  color: white;
+  padding: 240px 30px 0 30px;
+  text-transform: uppercase;
+}
+
+.secondheroskills h2:last-child {
+  padding-top: 0;
+}
+
+.secondheroskills p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: medium;
+  letter-spacing: 2px;
+  padding: 0 24px;
+  color: white;
+  text-transform: uppercase;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+.secondheroskills .photoshopskills {
+  background-color: #0c2631;
+  height: 100%;
+  align-items: center;
+}
+
 .datadrivenresults {
   min-width: calc(100%/3);
   clear: both;
@@ -222,6 +264,24 @@ footer #rlogodark {
 }
 
 .thejobdoneright {
+  min-width: calc(100%/3);
+  clear: both;
+  position: relative;
+}
+
+.indesignskills {
+  min-width: calc(100%/3);
+  clear: both;
+  position: relative;
+}
+
+.photoshopskills {
+  min-width: calc(100%/3);
+  clear: both;
+  position: relative;
+}
+
+.illustratorskills {
   min-width: calc(100%/3);
   clear: both;
   position: relative;
@@ -252,6 +312,42 @@ footer #rlogodark {
 }
 
 .thejobdonerighticon {
+  flex: 0 1 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  overflow: auto;
+  width: 180px;
+  padding: 40px;
+  text-align: center;
+}
+
+.indesignskillsicon {
+  flex: 0 1 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  overflow: auto;
+  width: 180px;
+  padding: 40px;
+  text-align: center;
+}
+
+.photoshopskillsicon {
+  flex: 0 1 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  overflow: auto;
+  width: 180px;
+  padding: 40px;
+  text-align: center;
+}
+
+.illustratorskillsicon {
   flex: 0 1 auto;
   position: absolute;
   left: 50%;
