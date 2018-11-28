@@ -12,20 +12,21 @@ function showheaderhideheader() {
 
 $('#hamburgermenu').click(showheaderhideheader)
 
-/* const cats = [
-  "../img/drainweb.png",
-  "../img/deerweb.png"
+/*var cats = [
+  "img/drainweb.png",
+  "img/deerweb.png"
 ]
 
-const node = document.getElementById("firstheroslider");
+var node = document.getElementById("deerwebid");
 
-const cycleImages = (images, container, step) => {
+var cycleImages = (images, container, step) => {
     images.forEach((image, index) => (
     setTimeout(() => {
+        console.log(container)
         container.style.backgroundImage = `url(${image})`  
     }, step * (index + 1))
   ))
   setTimeout(() => cycleImages(images, container, step), step * images.length)
 }
 
-cycleImages(cats, node, 1000) */
+cycleImages(cats, node, 1000)*/
