@@ -67,6 +67,34 @@ nav a:last-child {
 padding-right: 0;
 }
 
+footer {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+footer #logotypedark {
+  flex: 0 1 auto;
+  width: 120px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+footer #rlogodark {
+  width: 28px;
+  padding: 0 86px 0 22px;
+}
+
+.footer {
+  background: white;
+  height: 40px;
+  display: flex ;
+  justify-content: row;
+  align-items: center;
+  width: 100%;
+}
+
 #firstHeroSlider {
   width: 100%;
   display: flex;
@@ -250,11 +278,11 @@ padding-right: 0;
 }
 
 
- .secondhero p {
+.secondhero p {
     padding-bottom: 20px;
   }
 
-  .datadrivenresults {
+.datadrivenresults {
   min-width: calc(100%/3);
   clear: both;
   position: relative;
@@ -270,9 +298,6 @@ padding-right: 0;
   min-width: calc(100%/3);
   clear: both;
   position: relative;
-}
-
-.rhheadshot {
 }
 
 .rhheadshot img {
