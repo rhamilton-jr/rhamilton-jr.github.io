@@ -359,6 +359,10 @@ footer #rlogodark {
   .latestwork h1{
     padding: 60px 0 30px 0;
   }
+
+  .secondhero {
+    height: 1320px;
+  }
 }
 
 @media screen and (max-width: 403px) {
