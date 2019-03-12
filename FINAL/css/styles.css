@@ -54,7 +54,7 @@ font-family: "Roboto", sans-serif;
 padding: 10px 40px 10px 0;
 display: inline-block;
 text-decoration: none;
-justify-content: row;
+justify-content: center;
 font-size: 12px;
 color: #2d2b2d;
 font-weight: Bold;
@@ -65,6 +65,10 @@ clear: both;
 
 nav a:last-child {
 padding-right: 0;
+}
+
+nav a:hover {
+color: #46505a;
 }
 
 footer {
@@ -115,6 +119,7 @@ footer #rlogodark {
   font-weight: Bold;
   letter-spacing: 6px;
   padding: 0 30px;
+  text-transform: uppercase;
 }
 
 .herocopy p {
@@ -165,6 +170,29 @@ footer #rlogodark {
   margin-top: 12px;
 }
 
+.resume button a {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: 12px;
+  text-decoration: none;
+}
+
+.resume button {
+  background-color: #2d2b2d;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 32px;
+  margin-top: 80px;
+}
+
 .secondhero {
   height: 600px;
   width: calc(100%);
@@ -201,14 +229,27 @@ footer #rlogodark {
   margin-bottom: 0;
 }
 
+.resume {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.resume img {
+  flex: 0 1 auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+  overflow: auto;
+}
+
 .secondhero div {
   background-color: #2d2b2d;
 }
 
 .secondheroskills {
-  height: 600px;
   width: calc(100%);
-  background-color: #2d2b2d;
   display: flex;
   align-items: center;
   overflow: auto;
@@ -220,13 +261,10 @@ footer #rlogodark {
   font-weight: Bold;
   letter-spacing: 6px;
   color: white;
-  padding: 240px 30px 0 30px;
+  padding: 200px 30px 0 30px;
   text-transform: uppercase;
 }
 
-.secondheroskills h2:last-child {
-  padding-top: 0;
-}
 
 .secondheroskills p {
   text-align: center;
@@ -263,18 +301,26 @@ footer #rlogodark {
   min-width: calc(100%/3);
   clear: both;
   position: relative;
+  background-color: #330211;
+  align-items: center;
+  padding: 40px 0;
 }
 
 .photoshopskills {
   min-width: calc(100%/3);
   clear: both;
   position: relative;
+  background-color: #012733;
+  align-items: center;
+  padding: 40px 0;
 }
 
 .illustratorskills {
   min-width: calc(100%/3);
   clear: both;
   position: relative;
+  background-color: #2e1904;
+  padding: 40px 0;
 }
 
 .datadrivenresultsicon {
@@ -321,7 +367,7 @@ footer #rlogodark {
   object-fit: cover;
   overflow: auto;
   width: 180px;
-  padding: 40px;
+  padding: 0 40px 40px 40px;
   text-align: center;
 }
 
@@ -333,7 +379,7 @@ footer #rlogodark {
   object-fit: cover;
   overflow: auto;
   width: 180px;
-  padding: 40px;
+  padding: 0 40px 40px 40px;
   text-align: center;
 }
 
@@ -345,7 +391,7 @@ footer #rlogodark {
   object-fit: cover;
   overflow: auto;
   width: 180px;
-  padding: 40px;
+  padding: 0 40px 40px 40px;
   text-align: center;
 }
 
@@ -404,7 +450,6 @@ footer #rlogodark {
 
 .rhheadshot img {
   max-width: 320px;
-  /*max-width: 25%;*/
   flex: 0 1 auto;
   position: relative;
   left: 50%;
@@ -471,7 +516,7 @@ footer #rlogodark {
   }
 }
 
-@media screen and (max-width: 828px) {
+@media screen and (max-width: 838px) {
   
   .secondhero {
     display: inline-block;
@@ -481,12 +526,12 @@ footer #rlogodark {
 
   .secondheroskills {
     display: inline-block;
-    overflow: auto;
-    height: 1200px;
+    overflow: none;
+    height: all;
   }
 
-  .herocarousel {
-    height:400px;
+  #herocarouselid {
+    height: 400px;
   }
 
   .latestworkone {
@@ -501,6 +546,10 @@ footer #rlogodark {
     height: 400px;
   }
 
+  .herocopy {
+    padding-bottom: 40px;
+  }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -511,9 +560,16 @@ footer #rlogodark {
     height: 60px;
   }
   .herocopy {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 }
+
+@media screen and (max-width: 722px) {
+   .herocopy {
+    padding-bottom: 58px;
+  }
+}
+
 
 @media screen and (max-width: 568px) {
   .herocopy {
@@ -522,6 +578,13 @@ footer #rlogodark {
 
   .latestwork h1 {
     padding: 40px 0 30px 0;
+}
+
+@media screen and (max-width: 508px) {
+  
+  .herocopy {
+    padding-bottom: 98px;
+  }
 }
 
 @media screen and (max-width: 428px) {
@@ -541,6 +604,6 @@ footer #rlogodark {
 
 @media screen and (max-width: 403px) {
   .herocopy {
-    padding-bottom: 80px;
+    padding-bottom: 120px;
   }
 }
